@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
