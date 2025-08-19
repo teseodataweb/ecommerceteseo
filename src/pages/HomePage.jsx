@@ -3,12 +3,10 @@ import Preloader from "../helper/Preloader";
 import SaleOffer from "../components/SaleOffer";
 import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
-import ArrivalOne from "../components/ArrivalOne";
+import PerformanceAuthor from "../components/PerformanceAuthor";
 import FeaturedOne from "../components/FeaturedOne";
 import SellingOne from "../components/SellingOne";
 import FeaturedAuthor from "../components/FeaturedAuthor";
-import PerformanceAuthor from "../components/PerformanceAuthor";
-import BlogOne from "../components/BlogOne";
 import BecomeSellerOne from "../components/BecomeSellerOne";
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
@@ -29,23 +27,19 @@ const HomePage = () => {
     {/* BannerOne */}
     <BannerOne />
 
-    {/* ArrivalOne */}
-    <ArrivalOne />
-
-    {/* FeaturedOne */}
-    <FeaturedOne />
+    {/* PerformanceAuthor */}
+    <PerformanceAuthor />
 
     {/* SellingOne */}
     <SellingOne />
 
+    {/* FeaturedOne */}
+    <FeaturedOne />
+
+
     {/* FeaturedAuthor */}
     <FeaturedAuthor />
 
-    {/* PerformanceAuthor */}
-    <PerformanceAuthor />
-
-    {/* BlogOne */}
-    <BlogOne />
 
     {/* BecomeSellerOne */}
     <BecomeSellerOne />
