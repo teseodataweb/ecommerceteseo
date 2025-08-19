@@ -23,9 +23,9 @@ const BannerOne = () => {
             <div className="col-lg-6">
               <div className="hero-inner position-relative pe-lg-5">
                 <div>
-                  <h1 className="hero-inner__title">
+                  <h2 className="hero-inner__title">
                   Reportes de datos listos para accionar
-                  </h1>
+                  </h2>
                   <p className="hero-inner__desc font-18">
                   Análisis prácticos de Teseo para decisiones inmediatas. Compra segura. Descarga al instante
                   </p>

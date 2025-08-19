@@ -3,7 +3,6 @@ import Preloader from "../helper/Preloader";
 import SaleOffer from "../components/SaleOffer";
 import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
-import PopularOne from "../components/PopularOne";
 import ArrivalOne from "../components/ArrivalOne";
 import FeaturedOne from "../components/FeaturedOne";
 import SellingOne from "../components/SellingOne";
@@ -29,9 +28,6 @@ const HomePage = () => {
 
     {/* BannerOne */}
     <BannerOne />
-
-    {/* PopularOne */}
-    <PopularOne />
 
     {/* ArrivalOne */}
     <ArrivalOne />
