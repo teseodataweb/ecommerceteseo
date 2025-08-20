@@ -53,28 +53,22 @@ const PerformanceAuthor = () => {
               </div>
               <div className="performance-content">
                 <div className="performance-content__item">
-                  <span className="performance-content__text font-18">
-                    Email Subscription
-                  </span>
-                  <h4 className="performance-content__count">49,000+</h4>
+                  <h5 className="performance-content__count">
+                    Compra segura con Stripe
+                  </h5>
                 </div>
                 <div className="performance-content__item">
-                  <span className="performance-content__text font-18">
-                    Total Products
-                  </span>
-                  <h4 className="performance-content__count">45,000+</h4>
+                  <h5 className="performance-content__count">
+                    Descarga inmediata en PDF
+                  </h5>
                 </div>
                 <div className="performance-content__item">
-                  <span className="performance-content__text font-18">
-                    Total Download
-                  </span>
-                  <h4 className="performance-content__count">48,000+</h4>
+                  <h5 className="performance-content__count">
+                    Datos accionables para tu estrategia
+                  </h5>
                 </div>
                 <div className="performance-content__item">
-                  <span className="performance-content__text font-18">
-                    Monthly Visitor
-                  </span>
-                  <h4 className="performance-content__count">65,000+</h4>
+                  <h5 className="performance-content__count">Reportes actualizados a 2025</h5>
                 </div>
               </div>
             </div>
@@ -82,18 +76,16 @@ const PerformanceAuthor = () => {
           <div className="col-lg-5">
             <div className="section-content">
               <div className="section-heading style-left">
-                <h3 className="section-heading__title">Top Performance</h3>
+                <h3 className="section-heading__title">¿Por qué elegir Teseo Data Lab?</h3>
                 <p className="section-heading__desc font-18 w-sm">
-                  Every month we pick some best products for you. This month's
-                  best web themes &amp; templates have arrived, chosen by our
-                  content specialists.
+                  Cada reporte está diseñado para darte información confiable y práctica: compra protegida, entrega inmediata y datos listos para accionar en tu industria.
                 </p>
               </div>
               <Link
                 to="/register"
                 className="btn btn-main btn-lg pill fw-300"
               >
-                Get Started
+                Explorar reportes
               </Link>
             </div>
           </div>

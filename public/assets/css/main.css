@@ -1902,6 +1902,10 @@ button:focus {
 }
 
 /* ================================= Accordion Css End =========================== */
+/* ================================= Tags CSS Start =========================== */
+
+
+/* ================================= Tags CSS End =========================== */
 /* ================================= Button Css Start =========================== */
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
     color: none;
@@ -3487,6 +3491,8 @@ input[type=number] {
 /* Submenu End */
 /* Header Menu and Submenu Css End */
 /* ================================= Header Css End =========================== */
+
+
 /* ============ Search box ============= */
 .search-box {
     position: relative;
@@ -3616,6 +3622,7 @@ input[type=number] {
 .search-box .rounded-icon:hover {
     background-color: hsl(var(--white-one)) !important;
 }
+
 
 /* ================== Search Box =================== */
 /* Mobile Menu Sidebar Start */

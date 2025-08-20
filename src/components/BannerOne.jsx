@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const BannerOne = () => {
   return (
@@ -24,23 +25,75 @@ const BannerOne = () => {
               <div className="hero-inner position-relative pe-lg-5">
                 <div>
                   <h2 className="hero-inner__title">
-                  Reportes de datos listos para accionar
+                    Reportes de mercado en México, listos para accionar
                   </h2>
                   <p className="hero-inner__desc font-18">
-                  Análisis prácticos de Teseo para decisiones inmediatas. Compra segura. Descarga al instante
+                    Compra segura con Stripe y descarga inmediata en PDF. Respaldado por Teseo Data Lab.
                   </p>
-                  <div className="search-box">
-                    <input
-                      type="text"
-                      className="common-input common-input--lg pill shadow-sm"
-                      placeholder="Search theme, plugins & more..."
-                    />
-                    <button
-                      type="submit"
-                      className="btn btn-main btn-icon icon border-0"
-                    >
-                      <img src="assets/images/icons/search.svg" alt="" />
-                    </button>
+
+                  <div style={{ display: "flex", gap: "8px", marginTop: "12px", flexWrap: "wrap" }}>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>PDF</span>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>Actualizado 2025</span>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>Datos accionables</span>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>Teseo Data Lab</span>
+                  </div>
+
+
+                  <div style={{ display: "flex", gap: "15px" }}>
+                    <div className="text-center mt-64">
+                      <Link
+                        to="/all-product"
+                        className="btn btn-main btn-lg pill fw-300"
+                      >
+                        Explorar reportes
+                      </Link>
+                    </div>
+                    <div className="text-center mt-64">
+                      <button
+                        type="button"
+                        className="follow-btn btn btn-outline-light btn-lg pill"
+                        onClick={() => window.location.href = "/all-product"}
+                      >
+                        Comprar ahora
+                      </button>
+                    </div>
+                  </div>
+                  <div className="mt-3">
+                    <small style={{ color: "#6c757d", fontSize: "0.9rem" }}>
+                      <span style={{ fontWeight: 500 }}>Pago protegido</span> · Entrega inmediata · PDF con licencia de uso
+                    </small>
                   </div>
                   {/* Tech List Start */}
                   {/*
@@ -159,25 +212,12 @@ const BannerOne = () => {
                   alt=""
                   className="element two end-0"
                 />
-                <div className="statistics animation bg-main text-center">
-                  <h5 className="statistics__amount text-white">50k</h5>
-                  <span className="statistics__text text-white font-14">
-                    Customers
-                  </span>
-                </div>
-                <div className="statistics style-two bg-white text-center">
-                  <h5 className="statistics__amount statistics__amount-two text-heading">
-                    22k
-                  </h5>
-                  <span className="statistics__text text-heading font-14">
-                    Themes &amp; Plugins
-                  </span>
-                </div>
+
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };
