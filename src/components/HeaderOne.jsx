@@ -72,7 +72,12 @@ const HeaderOne = () => {
               <ul className="nav-menu flx-align">
                 <li>
                   <Link to="/" className="nav-menu__link">
-                    Productos
+                    Nuestros Productos
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://teseodata.com/" className="nav-menu__link">
+                    Teseo Data Lab
                   </Link>
                 </li>
                 {/*
