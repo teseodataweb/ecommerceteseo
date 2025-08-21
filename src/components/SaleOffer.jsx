@@ -46,30 +46,6 @@ const SaleOffer = () => {
   if (!show) return null;
 
   return (
-<<<<<<< HEAD
-    <>
-      <div className={show ? `sale-offer` : `d-none`}>
-        <div className="container container-full">
-          <div className="sale-offer__content flx-between position-relative">
-            <div className="sale-offer__countdown">
-              <div className="countdown">
-                <div className="day">
-                  <span className="num">{timeLeft.days}</span>
-                  <span className="word">Days: </span>
-                </div>
-                <div className="hour">
-                  <span className="num">{timeLeft.hours}</span>
-                  <span className="word">Hours: </span>
-                </div>
-                <div className="min">
-                  <span className="num">{timeLeft.minutes}</span>
-                  <span className="word">Min: </span>
-                </div>
-                <div className="sec">
-                  <span className="num">{timeLeft.seconds}</span>
-                  <span className="word">Sec: </span>
-                </div>
-=======
     <div className="sale-offer">
       <div className="container container-full">
         <div className="sale-offer__content flx-between position-relative">
@@ -91,7 +67,6 @@ const SaleOffer = () => {
               <div className="sec">
                 <span className="num">{timeLeft.seconds}</span>
                 <span className="word">Seg</span>
->>>>>>> fc0958ae01626d7493c7cb167d29f972930271d1
               </div>
             </div>
           </div>
