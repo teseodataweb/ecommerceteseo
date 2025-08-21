@@ -48,7 +48,7 @@ const PerformanceAuthor = () => {
                   <img src="assets/images/icons/featured-badge.png" alt="" />
                 </div>
                 <div className="circle__desc circle__text">
-                  <p ref={textRef}>Our Top Performance Our</p>
+                  <p ref={textRef}>Beneficios clave de Teseo Store.</p>
                 </div>
               </div>
               <div className="performance-content">

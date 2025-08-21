@@ -31,6 +31,7 @@ const BannerOne = () => {
                     Compra segura con Stripe y descarga inmediata en PDF. Respaldado por Teseo Data Lab.
                   </p>
 
+                  
                   <div style={{ display: "flex", gap: "8px", marginTop: "12px", flexWrap: "wrap" }}>
                     <span style={{
                       background: "#f1f3f4",
@@ -69,7 +70,39 @@ const BannerOne = () => {
                       border: "1px solid #e0e0e0"
                     }}>Teseo Data Lab</span>
                   </div>
+                  
 
+                   {/*
+                  <div style={{ display: "flex", gap: "8px", marginTop: "12px", flexWrap: "wrap" }}>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>Pago protegido</span>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>Entrega inmediata5</span>
+                    <span style={{
+                      background: "#f1f3f4",
+                      color: "#333",
+                      borderRadius: "16px",
+                      padding: "4px 12px",
+                      fontSize: "0.85rem",
+                      fontWeight: 500,
+                      border: "1px solid #e0e0e0"
+                    }}>PDF con licencia de uso</span>
+                  </div>
+                  */}
 
                   <div style={{ display: "flex", gap: "15px" }}>
                     <div className="text-center mt-64">
@@ -90,11 +123,13 @@ const BannerOne = () => {
                       </button>
                     </div>
                   </div>
+                  
                   <div className="mt-3">
                     <small style={{ color: "#6c757d", fontSize: "0.9rem" }}>
-                      <span style={{ fontWeight: 500 }}>Pago protegido</span> · Entrega inmediata · PDF con licencia de uso
+                      <span style={{ fontWeight: 500 }}>Pago protegido · Entrega inmediata · PDF con licencia de uso </span>
                     </small>
                   </div>
+                  
                   {/* Tech List Start */}
                   {/*
                   <div className="product-category-list">

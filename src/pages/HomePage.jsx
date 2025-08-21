@@ -11,6 +11,7 @@ import BecomeSellerOne from "../components/BecomeSellerOne";
 import ServiceOne from "../components/ServiceOne"
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
+import CallToAction from "../components/CallToAction";
 
 const HomePage = () => {
   
@@ -44,6 +45,9 @@ const HomePage = () => {
 
     {/* BecomeSellerOne */}
     <BecomeSellerOne />
+
+    {/* CallToAction */}
+    <CallToAction />
 
     {/* ServiceOne */}
     <ServiceOne />

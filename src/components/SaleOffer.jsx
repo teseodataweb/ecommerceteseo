@@ -50,19 +50,19 @@ const SaleOffer = () => {
               <div className="countdown">
                 <div className="day">
                   <span className="num">{timeLeft.days}</span>
-                  <span className="word">Days </span>
+                  <span className="word"><b>Days:</b> </span>
                 </div>
                 <div className="hour">
                   <span className="num">{timeLeft.hours}</span>
-                  <span className="word">Hours </span>
+                  <span className="word"><b>Hours:</b> </span>
                 </div>
                 <div className="min">
                   <span className="num">{timeLeft.minutes}</span>
-                  <span className="word">Min </span>
+                  <span className="word"><b>Min:</b> </span>
                 </div>
                 <div className="sec">
                   <span className="num">{timeLeft.seconds}</span>
-                  <span className="word">Sec </span>
+                  <span className="word"><b>Sec:</b> </span>
                 </div>
               </div>
             </div>

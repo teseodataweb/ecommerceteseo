@@ -48,11 +48,9 @@ const FeaturedAuthor = () => {
           <div className="col-xl-5">
             <div className="section-content">
               <div className="section-heading style-left">
-                <h3 className="section-heading__title">Top Featured Author</h3>
+                <h3 className="section-heading__title">Confianza respaldada por líderes del sector</h3>
                 <p className="section-heading__desc font-18 w-sm">
-                  Every month we pick some best products for you. This month's
-                  best web themes &amp; templates have arrived, chosen by our
-                  content specialists.
+                  Empresas e instituciones en México confían en Teseo para tomar decisiones con datos reales. Nuestros reportes ya impulsan estrategias en construcción, concreto y acero.
                 </p>
               </div>
               <div className="author-info d-flex align-items-center gap-3">
@@ -60,8 +58,12 @@ const FeaturedAuthor = () => {
                   <img src="assets/images/thumbs/author-img.png" alt="" />
                 </div>
                 <div className="author-info__content">
-                  <h4 className="author-info__name mb-1">Amplify</h4>
-                  <span className="author-info__text">Member Since 2021</span>
+                  <h6 className="author-info__name mb-1" style={{ fontSize: "1.2rem" }}>
+                    Presidente de la Asociación Mexicana de Profesionales Inmobiliarios (AMCI)
+                  </h6>
+                  <span className="author-info__text" style={{ fontSize: "1rem" }}>
+                    El reporte de Perspectivas del Mercado del Concreto 2025 nos permitió anticipar la demanda y preparar a nuestros asociados con información clave.
+                  </span>
                 </div>
               </div>
               <div className="flx-align gap-2 mt-48">
@@ -82,317 +84,119 @@ const FeaturedAuthor = () => {
           </div>
           <div className="col-xl-6">
             <div className="circle-content position-relative">
-              <div className="circle static-circle">
-                <div className="circle__badge">
-                  <img src="assets/images/icons/featured-badge.png" alt="" />
-                </div>
-                <div className="circle__text" ref={textRef}>
-                  <p>DP marketer Top Featured Author</p>
-                </div>
-              </div>
-              <div className="row gy-4 card-wrapper">
-                <div className="col-sm-6">
-                  <div className="product-item box-shadow">
-                    <div className="product-item__thumb d-flex">
-                      <Link to="/product-details" className="link w-100">
-                        <img
-                          src="assets/images/thumbs/product-img9.png"
-                          alt=""
-                          className="cover-img"
-                        />
-                      </Link>
-                      <button type="button" className="product-item__wishlist">
-                        <i className="fas fa-heart" />
-                      </button>
-                    </div>
-                    <div className="product-item__content">
-                      <h6 className="product-item__title">
-                        <Link to="/product-details" className="link">
-                          SaaS dashboard digital products Title here
-                        </Link>
-                      </h6>
-                      <div className="product-item__info flx-between gap-2">
-                        <span className="product-item__author">
-                          by
-                          <Link
-                            to="/profile"
-                            className="link hover-text-decoration-underline"
-                          >
-                            themepix
-                          </Link>
-                        </span>
-                        <div className="flx-align gap-2">
-                          <h6 className="product-item__price mb-0">$120</h6>
-                          <span className="product-item__prevPrice text-decoration-line-through">
-                            $259
-                          </span>
-                        </div>
-                      </div>
-                      <div className="product-item__bottom flx-between gap-2">
-                        <div>
-                          <span className="product-item__sales font-14 mb-2">
-                            1200 Sales
-                          </span>
-                          <div className="d-flex align-items-center gap-1">
-                            <ul className="star-rating">
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                            </ul>
-                            <span className="star-rating__text text-heading fw-500 font-14">
-                              (16)
-                            </span>
-                          </div>
-                        </div>
-                        <Link
-                          to="/product-details"
-                          className="btn btn-outline-light btn-sm pill"
-                        >
-                          Live Demo
-                        </Link>
-                      </div>
-                    </div>
+              <div
+                className="row gy-4 justify-content-center align-items-center"
+                style={{ minHeight: 340 }}
+              >
+                {/* Grid de logos de aliados/partners */}
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/amci.png"
+                      alt="Logo de AMCI"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
                   </div>
                 </div>
-                <div className="col-sm-6">
-                  <div className="product-item box-shadow">
-                    <div className="product-item__thumb d-flex">
-                      <Link to="/product-details" className="link w-100">
-                        <img
-                          src="assets/images/thumbs/product-img10.png"
-                          alt=""
-                          className="cover-img"
-                        />
-                      </Link>
-                      <button type="button" className="product-item__wishlist">
-                        <i className="fas fa-heart" />
-                      </button>
-                    </div>
-                    <div className="product-item__content">
-                      <h6 className="product-item__title">
-                        <Link to="/product-details" className="link">
-                          SaaS dashboard digital products Title here
-                        </Link>
-                      </h6>
-                      <div className="product-item__info flx-between gap-2">
-                        <span className="product-item__author">
-                          by
-                          <Link
-                            to="/profile"
-                            className="link hover-text-decoration-underline"
-                          >
-                            themepix
-                          </Link>
-                        </span>
-                        <div className="flx-align gap-2">
-                          <h6 className="product-item__price mb-0">$129</h6>
-                          <span className="product-item__prevPrice text-decoration-line-through">
-                            $236
-                          </span>
-                        </div>
-                      </div>
-                      <div className="product-item__bottom flx-between gap-2">
-                        <div>
-                          <span className="product-item__sales font-14 mb-2">
-                            100 Sales
-                          </span>
-                          <div className="d-flex align-items-center gap-1">
-                            <ul className="star-rating">
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                            </ul>
-                            <span className="star-rating__text text-heading fw-500 font-14">
-                              (16)
-                            </span>
-                          </div>
-                        </div>
-                        <Link
-                          to="/product-details"
-                          className="btn btn-outline-light btn-sm pill"
-                        >
-                          Live Demo
-                        </Link>
-                      </div>
-                    </div>
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/ampi-riviera-nayarit.png"
+                      alt="Logo de AMPI Riviera Nayarit"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
                   </div>
                 </div>
-                <div className="col-sm-6">
-                  <div className="product-item box-shadow">
-                    <div className="product-item__thumb d-flex">
-                      <Link to="/product-details" className="link w-100">
-                        <img
-                          src="assets/images/thumbs/product-img11.png"
-                          alt=""
-                          className="cover-img"
-                        />
-                      </Link>
-                      <button type="button" className="product-item__wishlist">
-                        <i className="fas fa-heart" />
-                      </button>
-                    </div>
-                    <div className="product-item__content">
-                      <h6 className="product-item__title">
-                        <Link to="/product-details" className="link">
-                          SaaS dashboard digital products Title here
-                        </Link>
-                      </h6>
-                      <div className="product-item__info flx-between gap-2">
-                        <span className="product-item__author">
-                          by
-                          <Link
-                            to="/profile"
-                            className="link hover-text-decoration-underline"
-                          >
-                            themepix
-                          </Link>
-                        </span>
-                        <div className="flx-align gap-2">
-                          <h6 className="product-item__price mb-0">$79</h6>
-                          <span className="product-item__prevPrice text-decoration-line-through">
-                            $99
-                          </span>
-                        </div>
-                      </div>
-                      <div className="product-item__bottom flx-between gap-2">
-                        <div>
-                          <span className="product-item__sales font-14 mb-2">
-                            900 Sales
-                          </span>
-                          <div className="d-flex align-items-center gap-1">
-                            <ul className="star-rating">
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                            </ul>
-                            <span className="star-rating__text text-heading fw-500 font-14">
-                              (16)
-                            </span>
-                          </div>
-                        </div>
-                        <Link
-                          to="/product-details"
-                          className="btn btn-outline-light btn-sm pill"
-                        >
-                          Live Demo
-                        </Link>
-                      </div>
-                    </div>
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/sherwin-williams.png"
+                      alt="Logo de Sherwin-Williams"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
                   </div>
                 </div>
-                <div className="col-sm-6">
-                  <div className="product-item box-shadow">
-                    <div className="product-item__thumb d-flex">
-                      <Link to="/product-details" className="link w-100">
-                        <img
-                          src="assets/images/thumbs/product-img4.png"
-                          alt=""
-                          className="cover-img"
-                        />
-                      </Link>
-                      <button type="button" className="product-item__wishlist">
-                        <i className="fas fa-heart" />
-                      </button>
-                    </div>
-                    <div className="product-item__content">
-                      <h6 className="product-item__title">
-                        <Link to="/product-details" className="link">
-                          SaaS dashboard digital products Title here
-                        </Link>
-                      </h6>
-                      <div className="product-item__info flx-between gap-2">
-                        <span className="product-item__author">
-                          by
-                          <Link
-                            to="/profile"
-                            className="link hover-text-decoration-underline"
-                          >
-                            themepix
-                          </Link>
-                        </span>
-                        <div className="flx-align gap-2">
-                          <h6 className="product-item__price mb-0">$59</h6>
-                          <span className="product-item__prevPrice text-decoration-line-through">
-                            $129
-                          </span>
-                        </div>
-                      </div>
-                      <div className="product-item__bottom flx-between gap-2">
-                        <div>
-                          <span className="product-item__sales font-14 mb-2">
-                            1225 Sales
-                          </span>
-                          <div className="d-flex align-items-center gap-1">
-                            <ul className="star-rating">
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                              <li className="star-rating__item font-11">
-                                <i className="fas fa-star" />
-                              </li>
-                            </ul>
-                            <span className="star-rating__text text-heading fw-500 font-14">
-                              (16)
-                            </span>
-                          </div>
-                        </div>
-                        <Link
-                          to="/product-details"
-                          className="btn btn-outline-light btn-sm pill"
-                        >
-                          Live Demo
-                        </Link>
-                      </div>
-                    </div>
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/le-curve.png"
+                      alt="Logo de Le Curve"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
+                  </div>
+                </div>
+                {/* Puedes agregar más logos aquí si es necesario */}
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/inmobiliaria-valdepenas.png"
+                      alt="Logo de Inmobiliaria Valdepeñas"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
+                  </div>
+                </div>
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/logos/cayco-concretos.png"
+                      alt="Logo de Cayco Concretos"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
                   </div>
                 </div>
               </div>
             </div>
+            {/* Estilos en línea para los logos */}
+            <style>
+              {`
+                .partner-logo-wrapper {
+                  width: 160px;
+                  height: 160px;
+                  border-radius: 50%;
+                  background: #f5f5f7;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: box-shadow 0.2s, background 0.2s;
+                  box-shadow: 0 2px 8px rgba(80,80,80,0.04);
+                  margin: 0 auto;
+                }
+                .partner-logo {
+                  width: 120px;
+                  height: 120px;
+                  object-fit: contain;
+                  border-radius: 50%;
+                  filter: grayscale(1) brightness(0.95);
+                  transition: filter 0.2s;
+                  background: #fff;
+                  padding: 12px;
+                  text-align: center;
+                  align-content: center;
+                }
+                .partner-logo-wrapper:hover,
+                .partner-logo-wrapper:focus {
+                  background: linear-gradient(90deg, #7c3aed 0%, #f20587 100%);
+                  box-shadow: 0 4px 16px rgba(124,58,237,0.15);
+                }
+                .partner-logo-wrapper:hover .partner-logo,
+                .partner-logo-wrapper:focus .partner-logo {
+                  filter: none;
+                  background: #fff;
+                }
+              `}
+            </style>
           </div>
         </div>
       </div>

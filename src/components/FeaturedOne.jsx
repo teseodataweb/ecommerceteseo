@@ -333,18 +333,16 @@ const FeaturedOne = () => {
           <div className="col-xl-5">
             <div className="section-content">
               <div className="section-heading style-left">
-                <h3 className="section-heading__title">Featured Products</h3>
+                <h3 className="section-heading__title">Acerca de Teseo Store</h3>
                 <p className="section-heading__desc font-18 w-sm">
-                  Every month we pick some best products for you. This month's
-                  best web themes &amp; templates have arrived, chosen by our
-                  content specialists.
+                  Teseo Store es la plataforma oficial de Teseo Data Lab para adquirir reportes de mercado en México. Cada estudio está diseñado para ofrecerte datos verificables, proyecciones estratégicas y tendencias sectoriales que impulsan decisiones de negocio. Compra segura, descarga inmediata y respaldo de expertos en analítica.
                 </p>
               </div>
               <Link
                 to="all-product"
                 className="btn btn-main btn-lg pill fw-300"
               >
-                View All Items
+                Ver todos los reportes
               </Link>
             </div>
           </div>
