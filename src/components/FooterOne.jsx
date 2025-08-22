@@ -39,44 +39,54 @@ const FooterOne = () => {
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <Link
-                        to="https://www.facebook.com"
+                      <a
+                        href="https://www.facebook.com/teseodata"
                         className="social-icon-list__link flx-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fab fa-facebook-f" />
-                      </Link>
+                      </a>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
-                        to="https://www.linkedin.com"
+                      <a
+                        href="https://www.instagram.com/teseo_data/"
                         className="social-icon-list__link flx-center"
-                      >
-                        <i className="fab fa-linkedin-in" />
-                      </Link>
-                    </li>
-                    <li className="social-icon-list__item">
-                      <Link
-                        to="https://www.pinterest.com"
-                        className="social-icon-list__link flx-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fab fa-instagram" />
-                        </Link>
+                      </a>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
-                        to="https://www.pinterest.com"
+                      <a
+                        href="https://www.linkedin.com/company/teseo-data-center/"
                         className="social-icon-list__link flx-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-linkedin-in" />
+                      </a>
+                    </li>
+                    <li className="social-icon-list__item">
+                      <a
+                        href="https://wa.me/5217713649201?"
+                        className="social-icon-list__link flx-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fab fa-whatsapp" />
-                        </Link>
+                      </a>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
-                        to="https://www.pinterest.com"
+                      <a
+                        href="https://teseodata.com/"
                         className="social-icon-list__link flx-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fas fa-globe" />
-                        </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -87,30 +97,30 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Enlaces Rápidos</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <Link to="/all-product" className="footer-lists__link">
+                    <Link to="https://teseodata.com/" className="footer-lists__link">
                     Sitio oficial Teseo
                     </Link>
                   </li>
                   <li className="footer-lists__item">
                     <Link
-                      to="/product-details"
+                      to="https://teseodata.com/blog"
                       className="footer-lists__link"
                     >
                       Blog
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/profile" className="footer-lists__link">
+                    <Link to="https://teseodata.com/pages/portafolio.php" className="footer-lists__link">
                       Portafolio
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/cart" className="footer-lists__link">
+                    <Link to="https://teseodata.com/pages/contacto.php" className="footer-lists__link">
                     Contacto
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/dashboard" className="footer-lists__link">
+                    <Link to="https://teseodata.com/pages/contacto.php" className="footer-lists__link">
                       Soporte
                     </Link>
                   </li>
@@ -127,17 +137,17 @@ const FooterOne = () => {
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/login" className="footer-lists__link">
-                    Reportes{" "}
+                    <Link to="https://datalpine.mx/exploradores" className="footer-lists__link">
+                    Explorador
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/register" className="footer-lists__link">
+                    <Link to="https://teseodata.com/pages/servicio.php" className="footer-lists__link">
                     Servicios Teseo
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link to="/blog-details" className="footer-lists__link">
+                    <Link to="https://wa.me/5217713649201?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20reporte" className="footer-lists__link">
                     Demo / Asesoría
                     </Link>
                   </li>
@@ -146,7 +156,7 @@ const FooterOne = () => {
             </div>
             <div className="col-xl-4 col-sm-6">
               <div className="footer-widget">
-                <h5 className="footer-widget__title text-white">Subscribe</h5>
+                <h5 className="footer-widget__title text-white">Subscribete</h5>
                 <p className="footer-widget__desc">
                 Recibe actualizaciones, promociones y contenido exclusivo.
                 </p>

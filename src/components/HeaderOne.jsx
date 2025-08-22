@@ -60,7 +60,7 @@ const HeaderOne = () => {
             {/* Logo Start */}
             <div className="logo">
               <Link to="/" className="link white-version" >
-                <img src="assets/images/logo/logo-two.png" alt="Logo" />
+                <img src="assets/images/logo/black-logo.png" alt="Logo" />
               </Link>
               <Link to="/" className="link dark-version">
                 <img src="assets/images/logo/white-logo.png" alt="Logo" />

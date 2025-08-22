@@ -21,7 +21,7 @@ const CallToAction = () => {
                 <div className="col-lg-1 d-lg-block d-none" />
                 <div className="col-lg-3 col-md-4 d-md-block d-none">
                   <div className="support-thumb text-center">
-                    <img src="assets/images/thumbs/support-img.png" alt="" />
+                    <img src="assets/images/thumbs/Call-Of-Action-mockup.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3 d-lg-block d-none" />

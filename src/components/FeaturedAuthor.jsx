@@ -53,15 +53,32 @@ const FeaturedAuthor = () => {
                   Empresas e instituciones en México confían en Teseo para tomar decisiones con datos reales. Nuestros reportes ya impulsan estrategias en construcción, concreto y acero.
                 </p>
               </div>
-              <div className="author-info d-flex align-items-center gap-3">
-                <div className="author-info__thumb">
-                  <img src="assets/images/thumbs/author-img.png" alt="" />
+              <div className="author-info d-flex align-items-center gap-3" style={{ width: "100%" }}>
+                {/*
+                <div className="author-info__thumb flex-grow-1 d-flex justify-content-center" style={{ maxWidth: "50%" }}>
+                  <img
+                    src="assets/images/thumbs/author-img.png"
+                    alt=""
+                    style={{ width: "100%", height: "auto", objectFit: "cover", maxWidth: "180px", minWidth: "120px" }}
+                  />
                 </div>
-                <div className="author-info__content">
-                  <h6 className="author-info__name mb-1" style={{ fontSize: "1.2rem" }}>
+                */}
+                <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
+                  <div className="partner-logo-wrapper">
+                    <img
+                      src="assets/images/clients/amci.png"
+                      alt="Logo de AMCI"
+                      className="partner-logo"
+                      width={160}
+                      height={160}
+                    />
+                  </div>
+                </div>
+                <div className="author-info__content flex-grow-1" style={{ maxWidth: "50%" }}>
+                  <h6 className="author-info__name mb-1" style={{ fontSize: "1.1rem", textAlign: "justify" }}>
                     Presidente de la Asociación Mexicana de Profesionales Inmobiliarios (AMCI)
                   </h6>
-                  <span className="author-info__text" style={{ fontSize: "1rem" }}>
+                  <span className="author-info__text" style={{ fontSize: "0.95rem", textAlign: "justify"}}>
                     El reporte de Perspectivas del Mercado del Concreto 2025 nos permitió anticipar la demanda y preparar a nuestros asociados con información clave.
                   </span>
                 </div>
@@ -71,13 +88,13 @@ const FeaturedAuthor = () => {
                   to="/profile"
                   className="btn btn-main btn-lg pill fw-300"
                 >
-                  View Profile
+                  Ver sitio oficial
                 </Link>
                 <button
                   type="button"
                   className="follow-btn btn btn-outline-light btn-lg pill"
                 >
-                  Follow
+                  Ver preguntas frecuentes
                 </button>
               </div>
             </div>
@@ -92,8 +109,8 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/amci.png"
-                      alt="Logo de AMCI"
+                      src="assets/images/clients/ap-safety.png"
+                      alt="Logo de AP Safety"
                       className="partner-logo"
                       width={160}
                       height={160}
@@ -103,7 +120,7 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/ampi-riviera-nayarit.png"
+                      src="assets/images/clients/ampi-riviera-nayarit.png"
                       alt="Logo de AMPI Riviera Nayarit"
                       className="partner-logo"
                       width={160}
@@ -114,7 +131,7 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/sherwin-williams.png"
+                      src="assets/images/clients/sherwin-williams.png"
                       alt="Logo de Sherwin-Williams"
                       className="partner-logo"
                       width={160}
@@ -125,7 +142,7 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/le-curve.png"
+                      src="assets/images/clients/le-curve.png"
                       alt="Logo de Le Curve"
                       className="partner-logo"
                       width={160}
@@ -137,7 +154,7 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/inmobiliaria-valdepenas.png"
+                      src="assets/images/clients/inmobiliaria-valdepenas.png"
                       alt="Logo de Inmobiliaria Valdepeñas"
                       className="partner-logo"
                       width={160}
@@ -148,7 +165,7 @@ const FeaturedAuthor = () => {
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
                   <div className="partner-logo-wrapper">
                     <img
-                      src="assets/images/logos/cayco-concretos.png"
+                      src="assets/images/clients/cayco-concretos.png"
                       alt="Logo de Cayco Concretos"
                       className="partner-logo"
                       width={160}

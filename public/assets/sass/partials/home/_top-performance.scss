@@ -25,18 +25,20 @@
         border-radius: 50% 0px 50% 0px;
         flex-direction: column;
         &:nth-child(1) {
-            background-color: #FDFBEB;
-            border-radius: 0px 50% 0px  50%;
+            // Degradado tipo petalo, tonos de morado diferentes
+            background: linear-gradient(135deg,  #f2a1ff 0%, #a18cd1 60%, #c471f5 100%);
+            border-radius: 0px 50% 0px 50%;
         }
         &:nth-child(2) {
-            background-color: #DAD1FD;
+            // Degradado tipo petalo, tonos de morado diferentes
+            background: linear-gradient(225deg, #c471f5 0%, #a18cd1 60%, #f2a1ff 100%);
         }
         &:nth-child(3) {
-            background-color: #FDCDF8;
+            background: linear-gradient(225deg,  #f2a1ff 0%, #a18cd1 60%, #c471f5 100%);
         }
         &:nth-child(4) {
-            background-color: #D0FBFE;
-            border-radius: 0px 50% 0px  50%;
+            background: linear-gradient(135deg,  #c471f5 0%, #a18cd1 60%, #f2a1ff 100%);
+            border-radius: 0px 50% 0px 50%;
         }
     }
     &__text, &__count {

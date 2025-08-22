@@ -8,8 +8,6 @@ import FeaturedOne from "../components/FeaturedOne";
 import SellingOne from "../components/SellingOne";
 import FeaturedAuthor from "../components/FeaturedAuthor";
 import BecomeSellerOne from "../components/BecomeSellerOne";
-import ServiceOne from "../components/ServiceOne"
-import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
 import CallToAction from "../components/CallToAction";
 
@@ -49,12 +47,6 @@ const HomePage = () => {
     {/* CallToAction */}
     <CallToAction />
 
-    {/* ServiceOne */}
-    <ServiceOne />
-
-
-    {/* BrandSectionOne */}
-    <BrandSectionOne />
 
     {/* FooterOne */}
     <FooterOne />

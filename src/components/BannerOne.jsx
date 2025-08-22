@@ -231,7 +231,7 @@ const BannerOne = () => {
             </div>
             <div className="col-lg-6">
               <div className="hero-thumb">
-                <img src="assets/images/thumbs/banner-img.png" alt="" />
+                <img src="assets/images/thumbs/hero-section-mockup.png" alt="" />
                 <img
                   src="assets/images/shapes/dots.png"
                   alt=""
