@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
     "firebase": "^12.1.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
@@ -27,6 +28,7 @@
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
+    "stripe": "^18.4.0",
     "swiper": "^9.1.1",
     "web-vitals": "^2.1.4"
   },

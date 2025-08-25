@@ -136,7 +136,7 @@ const SellingOne = () => {
                           {/* Conectaremos este botón al checkout cuando esté el endpoint */}
                           <button
                             className="btn btn-outline-light pill"
-                            onClick={() => alert("Checkout se conecta en el siguiente paso 😉")}
+                            onClick={() => goCheckoutWithPriceId(p.id)}   // 👈 p.id es el price_...
                           >
                             Comprar
                           </button>
