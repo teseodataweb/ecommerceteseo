@@ -21,7 +21,6 @@ export default function ProductDetails({ product }) {
     file_size_mb,
     updated_at,
     tags = [],
-    slug,
   } = product;
 
   const handleCheckout = async () => {

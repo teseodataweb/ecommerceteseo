@@ -1,4 +1,52 @@
+# Dependencias
 node_modules/
+functions/node_modules/
+
+# Builds / bundles
+dist/
+build/
+.next/
+out/
+.nuxt/
+coverage/
+.parcel-cache/
+.cache/
+.tmp/
+
+# Entorno y config (nunca subir secretos)
+.env
+.env.*
+.env.local
+.env.*.local
+*.env
+
+# Firebase runtime config y logs (solo locales)
+runtimeconfig.json
+.runtimeconfig.json
+functions/.runtimeconfig.json
+firebase-debug.log
+functions/firebase-debug.log
+.firebase/
+emulator-data/
+firestore_export/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+
+# Otros
 *.local
-runtimeconfig.json
-runtimeconfig.json
+*.pid
+*.seed
+*.orig
+*.swp
