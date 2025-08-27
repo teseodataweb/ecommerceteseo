@@ -38,6 +38,9 @@ function App() {
         <Route exact path="/index-two" element={<HomePageTwo />} />
         <Route exact path="/all-product" element={<AllProductPage />} />
         <Route exact path="/product-details" element={<ProductDetailsPage />} />
+        // ✅ Detalle dinámico por slug (flujo real)
+        <Route path="/product-details" element={<ProductDetailsPage />} />  
+        <Route path="/producto/:slug" element={<ProductDetailsPage />} />
         <Route exact path="/profile" element={<ProfilePage />} />
         <Route exact path="/cart" element={<CartPage />} />
         <Route exact path="/cart-personal" element={<CartPersonalPage />} />

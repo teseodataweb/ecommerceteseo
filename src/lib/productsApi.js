@@ -16,7 +16,6 @@ export async function fetchPublicProducts() {
     const snap = await getDocs(q);
     return snap.docs.map(d => ({ id: d.id, ...d.data() }));
   } catch (err) {
-    // Si falta índice compuesto, hacemos un fallback temporal
     const needsIndex =
       String(err?.message || "").includes("FAILED_PRECONDITION") ||
       String(err?.code || "").includes("failed-precondition");
@@ -35,4 +34,47 @@ export async function fetchPublicProducts() {
     }
     throw err;
   }
+}
+
+/* 🔽 NUEVO: traer un producto por slug */
+export async function fetchProductBySlug(slug) {
+  const ref = collection(db, "products");
+  const q = query(ref, where("slug", "==", slug), limit(1));
+  const snap = await getDocs(q);
+  if (snap.empty) return null;
+
+  const doc = snap.docs[0];
+  const raw = { id: doc.id, ...doc.data() };
+
+  // Normaliza nombres para que ProductDetails no truene si cambian:
+  return {
+    ...raw,
+    nombre: raw.nombre ?? raw.name ?? raw.productName,
+    cover_url: raw.cover_url ?? raw.coverUrl,
+    price_cents: raw.price_cents ?? raw.amount ?? 0,
+    currency: raw.currency ?? "MXN",
+    beneficios: raw.beneficios ?? [],
+    indice: raw.indice ?? [],
+    tags: raw.tags ?? [],
+  };
+}
+
+/* (Opcional) traer por id */
+export async function fetchProductById(id) {
+  const ref = collection(db, "products");
+  const q = query(ref, where("__name__", "==", id), limit(1));
+  const snap = await getDocs(q);
+  if (snap.empty) return null;
+  const doc = snap.docs[0];
+  const raw = { id: doc.id, ...doc.data() };
+  return {
+    ...raw,
+    nombre: raw.nombre ?? raw.name ?? raw.productName,
+    cover_url: raw.cover_url ?? raw.coverUrl,
+    price_cents: raw.price_cents ?? raw.amount ?? 0,
+    currency: raw.currency ?? "MXN",
+    beneficios: raw.beneficios ?? [],
+    indice: raw.indice ?? [],
+    tags: raw.tags ?? [],
+  };
 }
