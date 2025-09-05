@@ -5,22 +5,22 @@ const FooterOne = () => {
     <>
       <footer className="footer-section">
         <img
-          src="assets/images/shapes/pattern.png"
+          src="/assets/images/shapes/pattern.png"
           alt=""
           className="bg-pattern"
         />
         <img
-          src="assets/images/shapes/element1.png"
+          src="/assets/images/shapes/element1.png"
           alt=""
           className="element one"
         />
         <img
-          src="assets/images/shapes/element2.png"
+          src="/assets/images/shapes/element2.png"
           alt=""
           className="element two"
         />
         <img
-          src="assets/images/gradients/footer-gradient.png"
+          src="/assets/images/gradients/footer-gradient.png"
           alt=""
           className="bg--gradient"
         />
@@ -30,7 +30,7 @@ const FooterOne = () => {
               <div className="footer-widget">
                 <div className="footer-widget__logo">
                   <Link to="/">
-                    <img src="assets/images/logo/white-logo.png" alt="" />
+                    <img src="/assets/images/logo/white-logo.png" alt="" />
                   </Link>
                 </div>
                 <p className="footer-widget__desc">
