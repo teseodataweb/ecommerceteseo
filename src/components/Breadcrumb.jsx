@@ -2,7 +2,7 @@ const Breadcrumb = () => {
   return (
     <section className="breadcrumb breadcrumb-one padding-y-60 section-bg position-relative z-index-1 overflow-hidden">
       <img
-        src="assets/images/gradients/breadcrumb-gradient-bg.png"
+        src="/assets/images/gradients/breadcrumb-gradient-bg.png"
         alt=""
         className="bg--gradient"
       />

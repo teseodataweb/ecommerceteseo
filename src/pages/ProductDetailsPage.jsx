@@ -4,7 +4,8 @@ import { useParams, Navigate } from "react-router-dom";
 import HeaderOne from "../components/HeaderOne";
 import BreadcrumbTwo from "../components/BreadcrumbTwo";
 import ProductDetails from "../components/ProductDetails";
-import ServiceOne from "../components/ServiceOne";
+import ServiceOne from "../components/ServiceOne";    
+import ServiceTwo from "../components/ServiceTwo";
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
 import Preloader from "../helper/Preloader";
@@ -56,8 +57,13 @@ const ProductDetailsPage = () => {
       {/* Pasa el producto al componente de detalle */}
       <ProductDetails product={product} />
 
-            {/* ServiceOne */}
-            <ServiceOne />
+      {/* Mostrar ServiceOne o ServiceTwo según el nombre del producto */}
+      {product?.nombre === "Mercado del Acero en México: Proyecciones de Precios y Tendencias Esperadas" && (
+        <ServiceOne />
+      )}
+      {product?.nombre === "Perspectivas del Mercado del Concreto en México — 2025" && (
+        <ServiceTwo />
+      )}
 
       <BrandSectionOne />
       <FooterOne />

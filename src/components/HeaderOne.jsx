@@ -60,10 +60,10 @@ const HeaderOne = () => {
             {/* Logo Start */}
             <div className="logo">
               <Link to="/" className="link white-version" >
-                <img src="assets/images/logo/black-logo.png" alt="Logo" />
+                <img src="/assets/images/logo/black-logo.png" alt="Logo" />
               </Link>
               <Link to="/" className="link dark-version">
-                <img src="assets/images/logo/white-logo.png" alt="Logo" />
+                <img src="/assets/images/logo/white-logo.png" alt="Logo" />
               </Link>
             </div>
             {/* Logo End  */}
@@ -199,7 +199,7 @@ const HeaderOne = () => {
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
                 <Link to="/register" className="btn btn-main pill">
                   <span className="icon-left icon">
-                    <img src="assets/images/icons/user.svg" alt="" />
+                    <img src="/assets/images/icons/user.svg" alt="" />
                   </span>
                   Comprar Ahora
                 </Link>
@@ -225,12 +225,12 @@ const HeaderOne = () => {
         <div className="mobile-menu__inner">
           <Link to="/" className="mobile-menu__logo">
             <img
-              src="assets/images/logo/logo.png"
+              src="/assets/images/logo/logo.png"
               alt="Logo"
               className="white-version"
             />
             <img
-              src="assets/images/logo/white-logo-two.png"
+              src="/assets/images/logo/white-logo-two.png"
               alt="Logo"
               className="dark-version"
             />
@@ -382,13 +382,13 @@ const HeaderOne = () => {
             <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
               <Link to="/register" className="btn btn-main pill">
                 <span className="icon-left icon">
-                  <img src="assets/images/icons/user.svg" alt="" />
+                  <img src="/assets/images/icons/user.svg" alt="" />
                 </span>
                 Comprar Ahora
               </Link>
               <div className="language-select flx-align select-has-icon">
                 <img
-                  src="assets/images/icons/globe.svg"
+                  src="/assets/images/icons/globe.svg"
                   alt=""
                   className="globe-icon white-version"
                 />

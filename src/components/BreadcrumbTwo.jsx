@@ -21,7 +21,7 @@ export default function BreadcrumbTwo({
     <section className="breadcrumb border-bottom p-0 d-block section-bg position-relative z-index-1">
       <div className="breadcrumb-two">
         <img
-          src="assets/images/gradients/breadcrumb-gradient-bg.png"
+          src="/assets/images/gradients/breadcrumb-gradient-bg1.jpg"
           alt=""
           className="bg--gradient"
         />
@@ -60,7 +60,7 @@ export default function BreadcrumbTwo({
                 </ul>
 
                 {/* Título */}
-                <h1 className="breadcrumb-two-content__title mb-3 text-capitalize">
+                <h1 className="breadcrumb-two-content__title mb-3 text-capitalize" style={{color: "hsl(var(--static-white))"}}>
                   {title}
                 </h1>
 
@@ -135,7 +135,7 @@ export default function BreadcrumbTwo({
             {/* Share (opcional) */}
             <div className="social-share">
               <button type="button" className="social-share__button" aria-label="Compartir">
-                <img src="assets/images/icons/share-icon.svg" alt="" />
+                <img src="/assets/images/icons/share-icon.svg" alt="" />
               </button>
               <div className="social-share__icons">
                 <ul className="social-icon-list colorful-style">

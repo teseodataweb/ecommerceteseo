@@ -40,7 +40,7 @@ export default function ProductDetails({ product }) {
             <div className="product-details">
               <div className="product-details__thumb">
                 <img
-                  src={cover_url || "assets/images/thumbs/product-details.png"}
+                  src={cover_url || "/assets/images/thumbs/about-mockup.png"}
                   alt={`Portada del reporte ${nombre || "Reporte de mercado"}`}
                   className="w-100 rounded-3 shadow-lg"
                 />
